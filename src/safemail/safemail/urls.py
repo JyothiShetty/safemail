@@ -18,6 +18,9 @@ from django.urls import path ,include
 from django.views.generic.base import TemplateView
 from django.conf import settings
 
+from django.views.static import serve
+from django.conf.urls import url
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls'),{'form_class': 'core/login.html'},),
