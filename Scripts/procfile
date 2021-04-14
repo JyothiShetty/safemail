@@ -1,0 +1,1 @@
+web: gunicorn safemail.wsgi --log-file -
