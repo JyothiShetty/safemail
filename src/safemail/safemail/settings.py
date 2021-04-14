@@ -25,7 +25,7 @@ SECRET_KEY = '@zltu$z7kq*i=@wio=r9@t=%dc%$-4#lqq5ht*%b8!s4g)n9*#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1',' ']
+ALLOWED_HOSTS = ['127.0.0.1','safe-mail.herokuapp.com']
 
 
 # Application definition
